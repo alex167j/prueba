@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de Registro</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+
+ <div class="login-container">
+     <div class="container"> 
+    <form id="registroForm">
+    <input type="text" id="nombre" placeholder="Nombre completo">
+    <span class="error" id="nombreError"></span>
+
+    <input type="text" id="username" placeholder="Nombre de usuario">
+    <span class="feedback" id="usernameFeedback"></span>
+
+    <input type="email" id="email" placeholder="Correo electrónico">
+    <span class="error" id="emailError"></span>
+
+    <input type="password" id="password" placeholder="Contraseña">
+    <span class="error" id="passwordError"></span>
+
+    <div id="strengthMeter">
+      <div class="strength-bar"></div>
+    </div>
+    <span id="strengthText"></span>
+
+    <input type="password" id="confirmPassword" placeholder="Confirmar contraseña">
+    <span class="error" id="confirmPasswordError"></span>
+
+    <button type="submit">Registrarse</button>
+     </form>
+     </div> 
+    </div> 
+
+  <script src=""></script>
+</body>
+</html>
